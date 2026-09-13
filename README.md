@@ -1,6 +1,6 @@
 # Adapter na prática: fazendo um Kindle passar por livro
 
-Atividade de Padrões de Projeto (estruturais), feita em dupla, em cima do exemplo
+Atividade de Padrões de Projeto (estruturais)
 `Structural/Adapter` do repositório [DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP).
 
 A ideia era simples de enunciar e menos simples de resolver sem fazer gambiarra: o código
@@ -8,7 +8,7 @@ cliente só sabe conversar com a interface `Book`, e o `Kindle` fala outra líng
 pode mexer no `Kindle` (é código de terceiros) e mexer em `Book` quebraria o `PaperBook` e
 todo mundo que já usa a interface. Sobra o meio de campo, que é onde entra o Adapter.
 
-**Dupla:** _(preencher)_ e _(preencher)_
+**Dupla:** Endrigo Gustavo
 **Arquivo pedido pela atividade:** `Structural/Adapter/EBookAdapter.php`
 
 ---
