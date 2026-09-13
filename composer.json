@@ -1,0 +1,26 @@
+{
+    "name": "fatec-zl/adapter-ebook",
+    "description": "Atividade de padroes estruturais: adaptando um leitor digital (EBook/Kindle) ao contrato Book",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignPatterns\\": ""
+        }
+    },
+    "scripts": {
+        "demo": "php Structural/Adapter/exemplo.php",
+        "test": "phpunit"
+    }
+}
